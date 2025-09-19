@@ -28,13 +28,11 @@ class View
         
         // Se verifica si el archivo de la vista existe
         if (file_exists("views/sections/$view.php"))
-            {
-            // Incluir el contenido específico de la página
+            { // Incluir el contenido específico de la página
             require_once "views/sections/$view.php";
         } 
         else 
-        {
-            // Manejo de error para página no encontrada
+        { // Manejo de error para página no encontrada
             require_once 'views/sections/404.php';
         }
 

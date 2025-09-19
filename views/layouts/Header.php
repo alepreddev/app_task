@@ -6,7 +6,7 @@
     
     <div class="title-page">
 
-        <span class="name-page"><?php echo $title ?></span>
+        <span class="name-page"><?php echo $page ?></span>
 
     </div>
     

@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <aside class="sidebar">
 
-<div class="logo">Dashboard</div>
+    <div class="logo">Dashboard</div>
 
     <nav class="menu">
 
@@ -79,8 +79,8 @@
     
     <!-- en esta parte se puede agregar informacion adicional al final del sidebart -->
 
-    <!-- <div class="mobile-app">
+    <div class="mobile-app">
         <p>informacion adicional como footer</p>
-    </div> -->
+    </div>
 </aside>
 <!-- Sidebar:end -->

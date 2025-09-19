@@ -66,22 +66,27 @@ a {
   background-color: #d8d8d87b;
 }
 
+.menu li i span {
+  /* margin-bottom: 5px; */
+  /* margin-right: 10px; */
+}
+
 .general {
   border-top: 1px solid #e0e0e0;
   padding-top: 20px;
 }
 
 .mobile-app {
-  background: #065f46;
-  color: white;
+  background: #f2f4f5d6;
+  color: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
 
 .mobile-app button {
-  background-color: white;
-  color: #065f46;
+  background-color: rgb(0, 0, 0);
+  color: #c2dcf1;
   border: none;
   padding: 8px 16px;
   border-radius: 5px;
@@ -174,6 +179,10 @@ a {
 
   }
   .menu .general {
+    display: none;
+  }
+
+  .mobile-app {
     display: none;
   }
 
