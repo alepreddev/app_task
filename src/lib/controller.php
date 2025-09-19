@@ -20,7 +20,7 @@ class Controller
         $this->view->render($view, $data);
     }
 
-    public function render_page($view, $data = [])
+    public function render_app($view, $data = [])
     {
         $this->view->render_page($view, $data);
     }
