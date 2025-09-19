@@ -1,0 +1,1928 @@
+[16-Sep-2025 17:42:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 17:42:50 Europe/Berlin] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [C:\xampp\htdocs\app_task\src\lib/../config/\.env]. in C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Store\FileStore.php:68
+Stack trace:
+#0 C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(7): Dotenv\Dotenv->load()
+#2 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Store\FileStore.php on line 68
+[16-Sep-2025 17:43:21 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 17:43:21 Europe/Berlin] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [C:\xampp\htdocs\app_task\src\lib../config/\.env]. in C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Store\FileStore.php:68
+Stack trace:
+#0 C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(7): Dotenv\Dotenv->load()
+#2 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Store\FileStore.php on line 68
+[16-Sep-2025 17:44:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 17:44:10 Europe/Berlin] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [C:\xampp\htdocs\app_task\src\lib../config/\.env]. in C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Store\FileStore.php:68
+Stack trace:
+#0 C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(7): Dotenv\Dotenv->load()
+#2 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\app_task\vendor\vlucas\phpdotenv\src\Store\FileStore.php on line 68
+[16-Sep-2025 17:44:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 17:45:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 17:50:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:00:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:00:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:38:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:43:52 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:43:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Controller\Controller" not found in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 18:45:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:45:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Controller\Controller" not found in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 18:49:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:49:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Controller\Controller" not found in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 18:56:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:56:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "App\Controller\Controller" not found in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 18:57:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 18:57:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "AppTask\App\Controller\Controller" not found in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 19:11:17 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:13:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:42:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:42:47 Europe/Berlin] PHP Warning:  require_once(templates/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'templates/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:13
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(18): AppTask\App\Lib\Controller->render_page('home')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:43:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:43:05 Europe/Berlin] PHP Warning:  require_once(views/templates/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:43:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/templates/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:13
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(18): AppTask\App\Lib\Controller->render_page('home')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:43:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:43:06 Europe/Berlin] PHP Warning:  require_once(views/templates/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:43:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/templates/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:13
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(18): AppTask\App\Lib\Controller->render_page('home')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:43:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:43:26 Europe/Berlin] PHP Warning:  require_once(views/templates/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:43:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/templates/header.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:13
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(18): AppTask\App\Lib\Controller->render_page('home')
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(21): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 13
+[16-Sep-2025 19:45:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:55:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:57:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:57:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 19:57:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:04:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:07:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:07:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:27:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:27:49 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function AppTask\App\Lib\Controller::render_page(), 0 passed and at least 1 expected in C:\xampp\htdocs\app_task\src\lib\controller.php:18
+Stack trace:
+#0 [internal function]: AppTask\App\Lib\Controller->render_page()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('AppTask\\App\\Lib...', Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\controller.php on line 18
+[16-Sep-2025 20:27:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:27:50 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function AppTask\App\Lib\Controller::render_page(), 0 passed and at least 1 expected in C:\xampp\htdocs\app_task\src\lib\controller.php:18
+Stack trace:
+#0 [internal function]: AppTask\App\Lib\Controller->render_page()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(482): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke('AppTask\\App\\Lib...', Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\controller.php on line 18
+[16-Sep-2025 20:36:56 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 20:36:56 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Bramus\Router\Router::get(), 1 passed in C:\xampp\htdocs\app_task\src\lib\router.php on line 15 and exactly 2 expected in C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php:107
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\router.php(15): Bramus\Router\Router->get('/home')
+#1 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php on line 107
+[16-Sep-2025 20:37:17 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:20:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:20:40 Europe/Berlin] PHP Warning:  require_once(pages/404.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'pages/404.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:25
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(19): AppTask\App\Lib\Controller->render_page('home', Array)
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Warning:  require_once(pages/404.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'pages/404.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:25
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(19): AppTask\App\Lib\Controller->render_page('home', Array)
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Warning:  require_once(pages/404.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'pages/404.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:25
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(19): AppTask\App\Lib\Controller->render_page('home', Array)
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Warning:  require_once(pages/404.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'pages/404.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:25
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(19): AppTask\App\Lib\Controller->render_page('home', Array)
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Warning:  require_once(pages/404.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'pages/404.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:25
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('home', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(19): AppTask\App\Lib\Controller->render_page('home', Array)
+#2 [internal function]: {closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 25
+[16-Sep-2025 21:20:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:22:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:22:14 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed and exactly 1 expected in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 21:22:15 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:22:15 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function {closure}(), 0 passed and exactly 1 expected in C:\xampp\htdocs\app_task\src\lib\router.php:17
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#2 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#4 C:\xampp\htdocs\app_task\src\lib\router.php(22): Bramus\Router\Router->run()
+#5 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 17
+[16-Sep-2025 21:32:23 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:32:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:36:46 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:23 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:25 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:25 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:38:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:40:29 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:42:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:42:56 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:43:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:43:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:46:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:46:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:46:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:47:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:29 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:29 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:34 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:34 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:39 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:52 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:52 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:52 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:53 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:53 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:53 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:55 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:55 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:55 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:56 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:48:58 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:49:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:49:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:49:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:50:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:51:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:51:19 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:51:23 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:51:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:51:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:51:25 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:52:59 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:53:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:53:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:53:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:53:05 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:54:19 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:54:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:54:22 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:54:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:54:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:54:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:55:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:44 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:59 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:56:59 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:29 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:57:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:42 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:51 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:52 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:52 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:53 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:53 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 21:59:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:00:56 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:04:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:05:39 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:07:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:07:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:08:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:20:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:16 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:18 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:21 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:23 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:25 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:30 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:33 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:34 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:36 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:37 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:46 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:21:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:15 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:23:15 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:47 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:48 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:49 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:50 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:54 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:56 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:58 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:58 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:58 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:24:59 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:00 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:02 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:03 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:04 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:05 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:06 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:19 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:21 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:21 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:22 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:25:38 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:26:07 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:26:17 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:26:43 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:26:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:26:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:10 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:11 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:12 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:13 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:14 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:15 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:17 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:18 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:19 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:29 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:34 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:27:35 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:28:08 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:28:09 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:28:18 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:28:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:28:40 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:28:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:30:19 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:30:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:30:20 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:31:16 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:31:32 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:31:41 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:32:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:32:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:32:25 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:32:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:32:31 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:32:57 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:23 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:25 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:33:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:34:01 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:36:18 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:24 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:26 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:27 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:28 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:45 Europe/Berlin] log de la aplicacion!
+[16-Sep-2025 22:37:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:27:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:28:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:42:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:42:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:42:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:42:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:42:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:43:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:43:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:43:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:43:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:43:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:43:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:44:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:48:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:48:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:48:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:48:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:49:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:49:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:49:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:49:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:50:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:50:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:50:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:50:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:51:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:51:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:51:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:51:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:51:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:52:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:53:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:53:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:54:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:56:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:57:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:57:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:57:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:58:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:59:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:59:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:59:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:59:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:59:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 14:59:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:00:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:00:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:00:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:00:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:00:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:00:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:01:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:01:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:01:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:01:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:03:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:04:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:05:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:05:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:06:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:08:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:08:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:13:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:14:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:15:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:15:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:15:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:15:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:15:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:15:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:18:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:18:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:18:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:18:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:18:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:19:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:20:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:21:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:22:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:22:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:59:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:59:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:59:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:59:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 15:59:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:00:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:01:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:02:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:02:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:02:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:03:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:04:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:05:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:05:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:05:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:05:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:07:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:14:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:15:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:15:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:15:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:16:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:18:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:23:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:29:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:30:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:31:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:32:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:33:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:34:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:35:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:35:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:35:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:35:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:36 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:36:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:10 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:23 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:37:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:01 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:37 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:40 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:42 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:44 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:45 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:38:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:07 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:29 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:30 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:31 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:39:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:02 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:05 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:13 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:14 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:15 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:17 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:18 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:19 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:40:32 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:41:12 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:41:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:44:03 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:46:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:47:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:47:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:48:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:48:53 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:50:25 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:50:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:51:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:51:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:51:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:53:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:53:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:54:57 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:57:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:58:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:58:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 16:58:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:26 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:35 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:38 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:41 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:01:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:02:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:02:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:02:27 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:03:00 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:03:08 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:03:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:03:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:04:21 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:04:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:04:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:04:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:04:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:05:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:06 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:47 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:48 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:54 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:56 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:07:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:08:43 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:08:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:08:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:09:11 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:09:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:09:33 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:09:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:09:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:11:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:11:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:11:49 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:12:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:14:04 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:14:34 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:17:24 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:17:55 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:18:46 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:18:58 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:19:09 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:20:22 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:20:39 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:24:51 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:27:20 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:27:28 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:27:50 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:27:52 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:28:16 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:29:59 Europe/Berlin] log de la aplicacion!
+[17-Sep-2025 17:33:12 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:34:29 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:36:33 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:36:35 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:39:56 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:40:13 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:40:21 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:13 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:14 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:15 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:18 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:20 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:21 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:43:22 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:44:24 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:48:43 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:49:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:49:14 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:49:15 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:52:30 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:52:32 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:52:34 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:55:28 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:55:30 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:55:30 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:55:31 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 17:55:32 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 18:08:17 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 18:08:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to protected AppTask\App\Lib\Controller::__construct() from scope router_app in C:\xampp\htdocs\app_task\src\lib\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\router.php(37): router_app->__construct(Object(Bramus\Router\Router))
+#1 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 18
+[17-Sep-2025 18:08:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 18:08:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to protected AppTask\App\Lib\Controller::__construct() from scope router_app in C:\xampp\htdocs\app_task\src\lib\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\router.php(37): router_app->__construct(Object(Bramus\Router\Router))
+#1 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 18
+[17-Sep-2025 18:10:20 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 18:10:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to protected AppTask\App\Lib\Controller::__construct() from scope router_app in C:\xampp\htdocs\app_task\src\lib\router.php:18
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\router.php(37): router_app->__construct(Object(Bramus\Router\Router))
+#1 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\router.php on line 18
+[17-Sep-2025 18:16:01 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 18:37:31 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:21:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:21:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:21:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:33:28 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:41:48 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:41:48 Europe/Berlin] PHP Warning:  require(views/login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:41:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:41:50 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:41:50 Europe/Berlin] PHP Warning:  require(views/login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:41:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:43:38 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:46:49 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:53:28 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:53:32 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:53:34 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:53:35 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:53:38 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:55:20 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:55:20 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:55:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(25): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(42): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:23 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:56:23 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(24): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(41): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:24 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:56:25 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(24): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(41): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:57 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:56:57 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:59 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:56:59 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:56:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:15 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:15 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:15 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:15 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:16 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:16 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:16 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:22 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:24 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:24 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:26 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:57:26 Europe/Berlin] PHP Warning:  require_once(views/pages/section.login.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'views/pages/section.login.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\app_task\src\lib\view.php:11
+Stack trace:
+#0 C:\xampp\htdocs\app_task\src\lib\controller.php(20): AppTask\App\Lib\View->render('section.login', Array)
+#1 C:\xampp\htdocs\app_task\src\lib\router.php(23): AppTask\App\Lib\Controller->render('section.login', Array)
+#2 [internal function]: router_app->{closure}()
+#3 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(458): call_user_func_array(Object(Closure), Array)
+#4 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(440): Bramus\Router\Router->invoke(Object(Closure), Array)
+#5 C:\xampp\htdocs\app_task\vendor\bramus\router\src\Bramus\Router\Router.php(287): Bramus\Router\Router->handle(Array, true)
+#6 C:\xampp\htdocs\app_task\src\lib\router.php(40): Bramus\Router\Router->run()
+#7 C:\xampp\htdocs\app_task\index.php(18): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\app_task\src\lib\view.php on line 11
+[17-Sep-2025 19:57:43 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:17 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:17 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:58:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 19:59:43 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:04:45 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:04:47 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:04 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:39 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:40 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:41 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:43 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:44 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:45 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:46 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:47 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:48 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:49 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:57:49 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:58:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:58:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 20:58:11 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:20 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:21 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:22 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:24 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:26 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:28 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:29 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:29 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:06:32 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:22 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:23 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:24 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:25 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:26 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:26 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:07:27 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:31:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:31:17 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:31:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:31:20 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:36:23 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:36:24 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:36:25 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:36:26 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 21:36:27 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:14:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:14:53 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:16:03 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:16:19 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:17:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:17:08 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:17:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:17:12 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:17:13 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:34:26 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:35:15 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:35:18 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:35:21 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:37:37 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:38:16 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:38:18 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:38:35 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:41:37 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:42:41 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:50:29 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:50:34 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:50:36 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:50:38 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:51:00 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:51:02 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:51:32 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:51:33 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:51:45 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:52:39 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:52:41 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:03 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:04 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:08 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:12 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[17-Sep-2025 22:54:15 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:52:36 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:55:38 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:55:55 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:55:59 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:10 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:11 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:12 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:13 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:48 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:49 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:49 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:50 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:51 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:52 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:52 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:52 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:53 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:53 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:53 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:54 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:54 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:54 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:54 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:55 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:55 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:56 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:56 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:57 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:57 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:57 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:56:58 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:02 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:03 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:03 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:03 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:04 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:04 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:04 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:05 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:06 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:07 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:08 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:08 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:09 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:57:45 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !
+[19-Sep-2025 00:58:08 Europe/Berlin]  - - - - - - - - LOG DE LA APLICACION - - - - - - -  !

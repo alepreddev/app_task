@@ -1,0 +1,183 @@
+/* CSS general para el template/dashboard */
+::-webkit-scrollbar {width: 0.4vw;}
+::-webkit-scrollbar-track {background: #fff;}
+::-webkit-scrollbar-thumb {background: #adb5bd;border-radius: 12px;border: 3px solid #adb5bd;}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #1e1e1e;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #ffffff;
+  /* border-right: 1px solid #bcbbbb; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.menu li {
+  padding: 10px;
+  color: #333;
+  /* cursor: pointer; */
+}
+
+.menu li:hover {
+  color: #000000;
+  background-color: #d8d8d87b;
+  border-radius: 10px;
+}
+
+.menu li.active {
+  font-weight: bold;
+  color: #444444;
+  background-color: #00000021;
+  border-radius: 10px;
+}
+
+.menu li.active:hover {
+  background-color: #d8d8d87b;
+}
+
+.general {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 20px;
+}
+
+.mobile-app {
+  background: #065f46;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mobile-app button {
+  background-color: white;
+  color: #065f46;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* media querys para los tamaños de pantalla de la pagina, tener en cuenta celulares */
+/* Sidebar responsive para móviles */
+@media (max-width: 600px) {
+
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 95vw;
+    height: 70px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.985);
+    bottom: 0;
+    border-radius: 25px;
+    margin-left: 2.5vw;
+    margin-bottom: 10px;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 1000;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+  }
+  .logo {
+    display: none;
+  }
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    
+  }
+
+
+  .menu ul a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+  }
+
+  .menu .principal li {
+    flex: 1;
+    text-align: center;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    background: none;
+    border-radius: 0;
+    color: #333;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu .principal li i {
+    font-size: 28px;
+    margin-top: 15%;
+    padding: 5% 20% 1% 20%;
+  }
+  .menu .principal li.active i {
+    color: #000;
+    background-color: #00000021;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .menu .principal li span, .menu li::after, .menu li::before {
+    font-size: x-small;
+    margin-bottom: 10%;
+  }
+  .menu .principal li span {
+    /* Oculta el texto, muestra solo el icono */
+    margin-bottom: 15%;
+    /* display: none; */
+
+  }
+  .menu .general {
+    display: none;
+  }
+
+  .main-content {
+    margin-bottom: 60px;
+  }
+}

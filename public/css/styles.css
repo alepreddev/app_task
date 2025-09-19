@@ -1,0 +1,132 @@
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 30px;
+}
+
+.header input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.title-page {
+  flex-grow: 1;
+  text-align: start;
+}
+
+.title-page .name-page {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.profile {
+  text-align: right;
+  font-weight: bold;
+  display:inline;
+  border-radius: 20px;
+  padding-right: 0;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.profile span {
+  padding-left: 5px;
+}
+
+/* .btn-profile{
+  border-radius: 25px;
+  background-color: #fff;
+  margin: 0px;
+  border: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+} */
+
+/* .btn-profile:hover {
+  background-color: #d8d8d87b;
+} */
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.dashboard-header p {
+  color: #666;
+  margin-top: 5px;
+}
+
+/* ----------------- revisar css desde aqui ----------------- */
+
+.actions {
+  margin-top: 10px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+}
+
+.analytics,
+.reminders,
+.projects,
+.team,
+.progress,
+.time-tracker {
+  margin-top: 20px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.projects ul,
+.team ul {
+  padding-left: 20px;
+}
+
+/* button {
+  cursor: pointer;
+} */
+
+@media (max-width: 600px) {
+  .stats {
+    grid-template-columns: 1fr 1fr;
+  }
+}

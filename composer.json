@@ -1,0 +1,19 @@
+{
+    "name": "app_task/app",
+    "description": "aplicacion de tareas",
+    "autoload": {
+        "psr-4": {
+            "AppTask\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jose arocha",
+            "email": "josearocha050@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
